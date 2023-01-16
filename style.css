@@ -1,0 +1,93 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #5E4B48;
+    background: linear-gradient(#456142, #493930);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #E9DEC8;
+    font-family: 'Inconsolata', monospace;
+  }
+
+  #wrapper{
+      width:100%;
+      height:100%;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+  }
+  
+  form {
+    max-width: 600px;
+    height: 400px;
+    padding: 4em;
+  }
+  form p {
+    margin-bottom: 18px;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  form fieldset {
+    margin-bottom: 28px;
+    padding: 0;
+    border: none;
+  }
+  form a.continue {
+    font-size: 1.2em;
+    background-color: #E9DEC8;
+    color: #5E4B48;
+    padding: 0.5em 1em;
+    text-decoration: none;
+
+  }
+
+  form a.continue:hover,
+  form a.continue:focus {
+    background-color: #A97151;
+    color:#F4985A;
+  }
+
+  form a.continue {
+   float:right;
+  }
+
+  button.reset{
+      background-color: transparent;
+      border:none;
+      color: #E9DEC8;
+      font-family: 'Inconsolata', monospace;
+      font-size: 18px;
+      letter-spacing: 1px;
+  }
+
+  button.reset:hover{
+    color:#F4985A;
+  }
+
+  form label span {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    padding: 14px 12px;
+    border: 2px solid #F4985A;
+    cursor: pointer;
+    border-radius: 30px;
+   
+  }
+  form label:hover span, form label:focus span {
+    border: 2px solid  #F4985A;
+    background-color:#E9DEC8;
+    color: #5E4B48;
+  }
+  form input[type=radio] {
+    visibility: hidden;
+  }
+  form input[type=radio]:checked + span {
+     border: 2px solid  #F4985A;
+    background-color:#E9DEC8;
+    color: #5E4B48;
+  }
